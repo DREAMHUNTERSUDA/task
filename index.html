@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>TASK</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="menu-toggle" id="menuToggle">✕</div>
+            <ul>
+                <li class="menu"><a href="">About me</a></li>
+                <li class="menu"><a href="#testimonial">Testimonials</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="hero-section">
+        <div class="mix-it-button"> <button style=" background-color: darkviolet; border-color: orangered;">mix it
+                up!</button>
+        </div>
+        <div class="container">
+            <section class="intro">
+                <div class="intro-name">
+                    <div class="name-inner">GOOD</div>
+                    <div class="name-inner">EVENING,</div>
+                    <div class="name-inner">I AM </div>
+                    <div class="name-inner">SUDARSHAN</div>
+                </div>
+
+                <div class="intro-description" style="transform: translate3d(0px, -5px, 0px);">
+
+                    <p style="color: orange;">
+                        <span>web developer based in london</span> <br>
+                        <span>i like to building beautiful websites</span><br>
+                        <span> and bringing creative designs to life!</span>
+                    </p>
+                </div>
+            </section>
+            <section class="projects">
+                <div class="project-title">
+                    <div class="title-inner" style="font-size: 100px; color:white;">
+                        Projects
+                        <span class="dot" style="color: darkviolet; font-size: 50px;">.</span>
+                    </div>
+                    <ul>
+                        <li class="project-first"><img src="/images/second.jpg" alt="Second Image"></li>
+                        <li class="project-second"><img src="/images/first.jpg" alt="First Image"></li>
+                        <li class="project-third"><img src="/images/second.jpg" alt="Second Image"></li>
+                    </ul>
+                </div>
+            </section>
+            
+            <section class="testimonial" id="testimonial">
+                <div class="testimonial-title">
+                    <div class="title-inner" style="font-size: 100px; color: white;">
+                        testimonials
+                        <span class="dot" style="color: darkviolet; font-size: 50px;">.</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-para">
+                    <div class="testimonial-para-content">
+                        <p> Petya is a delightful developer to work with. She is a dedicated problem solver who has the
+                            rare ability to keep focused on the task at hand, while being a very transparent
+                            communicator. Petya made sure our project was completed on time, and delivered high-quality
+                            work, even under time pressure. I would be happy to recommend Petya to anyone and look
+                            forward to working with her again.</p>
+                    </div>
+
+                </div>
+                <div class="testimonial-autor">
+                    <img src="/images/first.jpg" alt="">
+                    <div class=" testimonial-autor-details">
+                    <p>" sudarshan tupe "</p>
+                    <p>managaing director</p>
+                </div>
+            </section>
+        </div>
+        <div class="testimonial-nav">
+            <button class="nav-btn">&lt;</button>
+            <button class="nav-btn">&gt;</button>
+        </div>
+
+        </section>
+
+        <section class="contact">
+            <div class="contact-title">
+                <div class="title-inner" style="font-size: 100px; color: white;">
+                    contact
+                    <span class="dot" style="color: darkviolet; font-size: 50px;">.</span>
+                </div>
+            </div>
+
+            <div class="contact-content">
+                <p><a href="mailto:sudarshantupe4911@gmail.com">contact@sudarshantupe.com</a></p>
+                <p><a href="https://github.com/DREAMHUNTERSUDA/">github.com sudarshan tupe</a></p>
+            </div>
+        </section>
+
+
+    </div>
+
+    </div>
+
+    <footer>
+        <div class="footer-details">
+            <p>@2024 sudarshan.com</p>
+            <div class="footer-links">
+                <i class="fa-solid fa-envelope"></i>
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+    <script>
+        document.getElementById('menuToggle').addEventListener('click', function () {
+            this.classList.toggle('active');
+            document.querySelector('.navbar ul').classList.toggle('show');
+        });
+    </script>
+
+</body>
+
+</html>
